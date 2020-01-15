@@ -26,4 +26,4 @@ const mapStateToProps = (state) => {
   return { items: state.items };
 };
 
-export default App;
+export default connect(mapStateToProps)(App);
